@@ -1,0 +1,106 @@
+.homepage-container {
+    text-align: center;
+    margin-top: 50px;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    width: 60%;
+    max-width: 800px;
+    margin: auto;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .homepage-container h1 {
+    font-size: 32px;
+    color: #333333;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .homepage-container p {
+    font-size: 18px;
+    color: #666666;
+    margin-bottom: 30px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .home-button {
+    background: linear-gradient(90deg, #ff7e5f, #feb47b);
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .home-button:hover {
+    background: linear-gradient(90deg, #feb47b, #ff7e5f);
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .home-button:active {
+    transform: scale(0.95);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .logout-container {
+    margin-top: 30px;
+  }
+  
+  .logout-button {
+    background: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+    box-shadow: 0 4px 12px rgba(255, 77, 77, 0.3);
+  }
+  
+  .logout-button:hover {
+    background: #e04343;
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(255, 77, 77, 0.4);
+  }
+  
+  .logout-button:active {
+    transform: scale(0.95);
+    box-shadow: 0 2px 8px rgba(255, 77, 77, 0.3);
+  }
+  
+  @media (max-width: 768px) {
+    .homepage-container {
+      width: 90%;
+      padding: 20px;
+    }
+  
+    .home-button {
+      font-size: 16px;
+      padding: 12px 20px;
+    }
+  
+    .button-container {
+      flex-direction: column;
+      gap: 15px;
+    }
+  
+    .logout-button {
+      font-size: 14px;
+      padding: 10px 20px;
+    }
+  }
+  
